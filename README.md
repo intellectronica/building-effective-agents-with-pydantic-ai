@@ -1,7 +1,8 @@
 # Building Effective Agents with Pydantic AI
 
 ---
-> 🚧 WORK IN PROGRESS
+> 🚧 WORK IN PROGRESS 🚧
+> 
 > Feedback, suggestions, and contributions welcome
 ---
 
@@ -17,3 +18,9 @@ with clarity and precision.
 These examples complement the original code accompanying the
 article and hopefully serve a dual purpose, demonstrating both the foundational agentic AI
 patterns discussed in the article and the use of Pydantic AI.
+
+---
+
+- [Basic Workflows (chain, parallelize, route)](basic_workflows.ipynb)
+- [Orchestrator and Workers](orchestrator_workers.ipynb)
+- [Evaluator and Optimizer](evaluator_optimizer.ipynb)
