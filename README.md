@@ -22,5 +22,8 @@ patterns discussed in the article and the use of Pydantic AI.
 ---
 
 - [Basic Workflows (chain, parallelize, route)](basic_workflows.ipynb)
+  [📖](https://nbsanity.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/basic_workflows.ipynb)
 - [Orchestrator and Workers](orchestrator_workers.ipynb)
+  [📖](https://nbsanity.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/orchestrator_workers.ipynb)
 - [Evaluator and Optimizer](evaluator_optimizer.ipynb)
+  [📖](https://nbsanity.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/evaluator_optimizer.ipynb)
