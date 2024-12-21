@@ -27,3 +27,17 @@ patterns discussed in the article and the use of Pydantic AI.
   [📖](https://nbsanity.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/orchestrator_workers.ipynb)
 - [Evaluator and Optimizer](evaluator_optimizer.ipynb)
   [📖](https://nbsanity.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/evaluator_optimizer.ipynb)
+
+---
+
+To run:
+1. Copy `dot.env` to `.env`
+2. Fill in the API keys for your LLM provider(s)
+3. Set `AI_MODEL` to the model you want to use
+   (see https://ai.pydantic.dev/models/ for supported providers and models)
+
+For example:
+```
+OPENAI_API_KEY=sk-123456789
+AI_MODEL=openai:gpt-4o
+```
