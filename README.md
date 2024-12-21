@@ -41,3 +41,8 @@ For example:
 OPENAI_API_KEY=sk-123456789
 AI_MODEL=openai:gpt-4o
 ```
+or
+```
+GEMINI_API_KEY=ABC-123_xyz
+AI_MODEL=gemini-1.5-pro
+```
