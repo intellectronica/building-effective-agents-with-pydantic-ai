@@ -1,7 +1,6 @@
 import os
 import random
-from pprint import pformat
-
+from pprint import pformat, pprint
 from dotenv import load_dotenv
 import nest_asyncio
 
@@ -32,3 +31,17 @@ def initialize():
         logfire.instrument_asyncpg()
 
     return _ai_model
+
+
+def show(txt, title=None):
+    print()
+    if title:
+        print(title)
+        print('-' * len(title))
+        print()
+    if txt:
+        if type(txt) == str:
+            print(txt)
+        else:
+            pprint(txt)
+        print()
