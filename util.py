@@ -28,7 +28,7 @@ def initialize():
 
     if os.environ.get('LOGFIRE_TOKEN'):
         import logfire
-        logfire.configure()  
+        logfire.configure(console=False)  
         logfire.instrument_asyncpg()
 
     return _ai_model
