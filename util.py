@@ -26,4 +26,9 @@ def initialize():
 
     nest_asyncio.apply()
 
+    if os.environ.get('LOGFIRE_TOKEN'):
+        import logfire
+        logfire.configure()  
+        logfire.instrument_asyncpg()
+
     return _ai_model
