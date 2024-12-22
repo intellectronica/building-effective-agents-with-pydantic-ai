@@ -1,0 +1,3 @@
+pydantic-ai
+python-dotenv
+nest_asyncio
