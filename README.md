@@ -1,25 +1,21 @@
 # Building Effective Agents with Pydantic AI
 
----
-> 🚧 WORK IN PROGRESS 🚧
-> 
-> Feedback, suggestions, and contributions welcome
----
-
 Code examples for the agentic AI patterns discussed in the excellent article
 [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 by [Erik Schluntz](https://github.com/eschluntz) and [Barry Zhang](https://github.com/ItsBarryZ)
-of Anthropic.
+of Anthropic, inspired, ported and adapted from the
+[code samples](https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents)
+by the authors.
 
 The examples rely on [Pydantic AI](https://ai.pydantic.dev/), an agentic AI
 orchestration library that is particularly well-suited for implementing these patterns
 with clarity and precision.
 
-These examples complement the original code accompanying the
-article and hopefully serve a dual purpose, demonstrating both the foundational agentic AI
-patterns discussed in the article and the use of Pydantic AI.
+These examples complement the original code accompanying the article and hopefully
+serve a dual purpose, demonstrating both the foundational agentic AI patterns discussed
+in the article and the use of Pydantic AI.
 
----
+## Notebooks
 
 - [Basic Workflows (chain, parallelize, route)](basic_workflows.ipynb)
   [📖](https://nbsanity.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/basic_workflows.ipynb)
@@ -28,9 +24,8 @@ patterns discussed in the article and the use of Pydantic AI.
 - [Evaluator and Optimizer](evaluator_optimizer.ipynb)
   [📖](https://nbsanity.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/evaluator_optimizer.ipynb)
 
----
+## Setup
 
-To run:
 1. Copy `dot.env` to `.env`
 2. Fill in the API keys for one or more of your LLM provider(s)
 3. Set `AI_MODEL` to the model you want to use
